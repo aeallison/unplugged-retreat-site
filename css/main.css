@@ -390,8 +390,7 @@ aside {
   }
 
   header nav ul {
-    width: 20%;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .header-divider {
@@ -485,7 +484,7 @@ aside {
   align-items: flex-start;
 }
 
-/* FOOTER */
+/* FAQ PAGE */
 
 .faq .content-wrapper {
   justify-content: space-between;
@@ -495,7 +494,7 @@ aside {
   flex-basis: 45%;
 }
 
-.faq-content h2 {
+.faq h2 {
   width: 100%;
 }
 
