@@ -352,6 +352,7 @@ input[type=button] {
 /* --------- ABOUT PAGE --------- */
 
 .mission {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -609,6 +610,10 @@ input[type=button] {
     width: 49%;
   }
 
+  .reviews h2 {
+    width: 85%;
+  }
+
   .reviews h3 {
     width: 75%;
     margin: 0;
@@ -648,10 +653,6 @@ input[type=button] {
 
 /* ABOUT PAGE */
 
-.mission {
-  background: #527158;
-}
-
 .mission-content {
   display: flex;
   justify-content: space-between;
@@ -661,6 +662,10 @@ input[type=button] {
 
 .mission-content p {
   width: 45%;
+}
+
+.map figure {
+  padding-bottom: 45.5%;
 }
 
 .contact-section .content-wrapper h2 {
@@ -703,6 +708,7 @@ input[type=button] {
   header {
     padding: 15px 0;
   }
+
   .content-wrapper {
     max-width: 960px;
   }
@@ -736,7 +742,7 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 30%;
+    width: 40%;
   }
 
   .form-description p {
@@ -773,6 +779,10 @@ input[type=button] {
   .contact-section .content-wrapper h2 {
     width: 95%;
     font-size: 3em;
+  }
+
+  .map figure {
+    padding-bottom: 37%;
   }
 
   .contact-content h4 {
