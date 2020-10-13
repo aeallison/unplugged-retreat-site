@@ -103,6 +103,8 @@ body {
 ul,
 ol {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -286,7 +288,7 @@ aside .form {
 input[type=text] {
   box-sizing: border-box;
   width: 100%;
-  color: #2a423a;
+  color: #9d9ea4;
   font-style: italic;
   padding: 1em;
 }
@@ -607,6 +609,10 @@ input[type=button] {
 
   }
 
+  .features i {
+    margin-bottom: 30px;
+  }
+
   .features .features-item-description {
     width: 62%;
   }
@@ -760,7 +766,7 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 40%;
+    width: 30%;
   }
 
   .form-description p {
@@ -800,7 +806,7 @@ input[type=button] {
   }
 
   .map figure {
-    padding-bottom: 37%;
+    padding-bottom: 37.5%;
   }
 
   .contact-content h4 {
